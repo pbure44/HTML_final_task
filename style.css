@@ -68,7 +68,7 @@ header {
 
 .trackingInput {
   width: 39.58vw;
-  height: 7.03vh;
+  height: 5vw;
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
@@ -146,7 +146,7 @@ input::-webkit-inner-spin-button {
 
 .services-block-1 {
   width: 100vw;
-  height:55.56vw;
+  height: 55.56vw;
   background-color: #F8F8F8;
 }
 
@@ -166,7 +166,7 @@ input::-webkit-inner-spin-button {
   flex-direction: column;
 }
 
-.services-block-1-left h2{
+.services-block-1-left h2 {
   color: #0E2F4B;
   font-size: 3.33vw;
   font-style: normal;
@@ -191,7 +191,8 @@ input::-webkit-inner-spin-button {
   flex-direction: column;
   padding-left: 2.08vw;
 }
-.services-block-1-right h4{
+
+.services-block-1-right h4 {
   color: #0E2F4B;
   font-size: 1.67vw;
   font-style: normal;
@@ -200,7 +201,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.services-block-1-right a{
+.services-block-1-right a {
   color: #0E2F4B;
   font-size: 0.97vw;
   font-style: normal;
@@ -228,7 +229,7 @@ input::-webkit-inner-spin-button {
   padding-left: 1.04vw;
   padding-right: 6.46vw;
   color: #F8F8F8;
-  font-size: 4.69vh;
+  font-size: 3.33vw;
   font-style: normal;
   font-weight: 700;
   line-height: 4.17vw;
@@ -239,13 +240,14 @@ input::-webkit-inner-spin-button {
 .export-code-block p {
   color: #99A2AA;
   font-family: Open Sans, serif;
-  font-size: 1.53vw;
+  font-size: 1.11vw;
   font-style: normal;
   font-weight: 400;
   line-height: 2.08vw;
   padding-left: 1.04vw;
 }
-.export-code-block a{
+
+.export-code-block a {
   display: flex;
   width: 21.18vw;
   height: 5.56vw;
@@ -257,27 +259,256 @@ input::-webkit-inner-spin-button {
   color: #0E2F4B;
   font-size: 1.39vw;
   font-weight: 700;
-  margin: 2.08vw 0 0 2.08vw;
+  margin: 3.06vw 0 0 2.08vw;
 }
 
 .services-block-2 {
   width: 100vw;
-  height: 85.94vh;
+  height: 61.11vw;
   background-color: #F8F8F8;
+}
+
+.services-block-2 > .container {
+  width: 83.33vw;
+  height: 54.17vw;
+  margin: 6.94vw 8.33vw 0 8.33vw;
+  flex-wrap: wrap;
+}
+
+.services-block-2 > .container > .Tabpanel {
+  width: 81.25vw;
+  height: 15.8vw;
+  border-radius: 10px;
+  background: #FDC13D;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 1.04vw 8.4vw 1.04vw;
+}
+
+.services-block-2 h4 {
+  color: #0E2F4B;
+  font-size: 1.67vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.22vw;
+  margin: 0 8.19vw 1vw 5.21vw;
+}
+
+.services-block-2 p {
+  color: #0E2F4B;
+  font-family: Open Sans, serif;
+  font-size: 1.11vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.08vw;
+  margin-left: 5.21vw;
+}
+
+.Tabpanel a {
+  color: #0E2F4B;
+  font-size: 1.11vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.67vw;
+  margin-left: 5.21vw;
+  margin-top: 0.83vw;
+}
+
+.services-block-2 h2 {
+  width: 100%;
+  height: 3.96vw;
+  color: #0E2F4B;
+  font-size: 3.33vw;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0 0 0 1.04vw;
+}
+
+.finServices {
+  width: 18.75vw;
+  height: 18.75vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.04vw 0 1.04vw;
+}
+
+.finServices h4 {
+  margin: 2.22vw 9.72vw 0 0;
+}
+
+.finServices > p {
+  color: #0E2F4B;
+  font-size: 0.97vw;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.39vw;
+  margin: 0.9vw 0 0 0;
 }
 
 .zip-code-block {
   width: 100vw;
-  height: 62.01vh;
+  height: 44.1vw;
   background-color: #0E2F4B;
+}
+
+.zip-code-block > .container {
+  width: 83.33vw;
+  height: 25.35vw;
+  margin: 9.38vw 8.33vw;
+  flex-direction: column;
+}
+
+.zip-code-block h2 {
+  color: #F8F8F8;
+  font-size: 3.33vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.17vw;
+  margin: 2.08vw 0 0 1.04vw;
+}
+
+.zip-code-block p {
+  color: #99A2AA;
+  font-family: Open Sans, serif;
+  font-size: 1.11vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.08vw;
+  margin: 2.5vw 3.47vw 0 1.04vw;
+}
+
+.zip-code-block form {
+  margin: 5.56vw 1.04vw 2.08vw 1.04vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.cityInput {
+  width: 35.14vw;
+  height: 5.42vw;
+  border-radius: 10px;
+  border: 0.07vw solid #E8EBEE;
+  background: #FFF;
+  color: #6C757D;
+  font-size: 1.11vw;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  padding: 0 2.08vw;
+}
+
+.findCityButton {
+  width: 17.36vw;
+  height: 5.56vw;
+  border-radius: 10px;
+  border: none;
+  background: #FDC13D;
+  color: #0E2F4B;
+  text-align: center;
+  font-size: 1.39vw;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 0.76vw;
 }
 
 .middle-block {
   width: 100vw;
-  height: 127.34vh;
+  height: 90.56vw;
   background-color: #F8F8F8;
+
 }
 
+.middle-block .container {
+  width: 83.33vw;
+  height: 78.06vw;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin: 6.94vw 8.33vw 5.56vw 8.33vw;
+}
+.middle-block h2{
+  width: 100%;
+  color: #0E2F4B;
+  font-size: 3.33vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.17vw;
+  margin: 1.04vw;
+}
+.middle-block h3{
+  width: 100%;
+  color: #0E2F4B;
+  font-size: 3.33vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.17vw;
+  margin: 7.71vw 1.04vw 2.08vw 1.04vw;
+}
+.newsBlock {
+  width: 39.58vw;
+  height: 17.36vw;
+  border-radius: 10px;
+  background: #FFF;
+  display: flex;
+  /*justify-content: start;*/
+  flex-direction: column;
+  margin: 1.04vw;
+  flex-wrap: wrap;
+}
+.newsIcons{
+  width: 6.94vw;
+  height: 6.94vw;
+  margin: 2.08vw 0 0 2.08vw;
+
+}
+.newsBlock h6 {
+  height: 1.32vw;
+  color: #99A2AA;
+  font-family: Open Sans, sans-serif;
+  font-size: 0.97vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.67vw;
+  margin: 2.22vw 0 0.63vw 10.42vw;
+  position: absolute;
+}
+.newsBlock h4{
+  width: 27.08vw;
+  color: #0E2F4B;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.67vw;
+  margin: 4.17vw 1.04vw 1.67vw 10.42vw;
+  position: absolute;
+}
+.newsBlock p{
+  color: #0E2F4B;
+  font-family: Open Sans, sans-serif;
+  font-size: 1.11vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.08vw;
+  margin-left: 2.08vw;
+  padding-top: 1.67vw;
+}
+.refBlock{
+  width: 25.69vw;
+  height: 6.39vw;
+  border-radius: 10px;
+  background: #FFF;
+  margin: 1.04vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #99A2AA;
+  font-size: 1.39vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.22vw;
+}
 .branches-block {
   width: 100vw;
   height: 48.83vh;
