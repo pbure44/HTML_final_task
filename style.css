@@ -27,21 +27,20 @@ p, h2 {
 
 header {
   width: 100vw;
-  height: 14.65vh;
+  height: 10.42vw;
   background-color: #FFF;
 }
 
 .headerLogo {
   width: 12.92vw;
-  height: 4.88vh;
-  padding-top: 2.44vh;
-  padding-bottom: 1.46vh;
+  height: 3.47vw;
+  padding-top: 1.74vw;
+  padding-bottom: 1.04vw;
 }
-
 
 .navButtonBlock {
   width: 44.03vw;
-  height: 5.86vh;
+  height: 4.17vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,21 +48,27 @@ header {
 
 .navButton {
   color: #99A2AA;
-  font-size: 2vh;
+  font-size: 1.11vw;
+  transition: 1.5s;
+}
+.navButton:hover {
+  color: black;
+  font-size: 1.21vw;
+  transition: 1s;
 }
 
 .tabPanel {
   width: 100vw;
-  height: 43.95vh;
+  height: 31.25vw;
   background-color: #FEC524;
   flex-direction: column;
 }
 
 .tabPanelContainer {
   width: 83.33vw;
-  height: 20.70vh;
+  height: 14.72vw;
   flex-direction: column;
-  padding-top: 2.93vh;
+  padding-top: 2.08vw;
 }
 
 .trackingInput {
@@ -72,33 +77,44 @@ header {
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 0.69vw;
   border-style: none;
   background: #FFF;
-  font-size: 2vh;
+  font-family: Rubik, sans-serif;
+  font-size: 1.11vw;
   color: #757575;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  padding-left: 2.08vw;
 }
 
 .containerButton {
   display: flex;
   width: 18.72vw;
   height: 5.56vw;
-  border-radius: 10px;
+  border-radius: 0.69vw;
   background-color: #FFF;
   box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
   text-decoration: none;
-  font-size: 2vh;
+  font-size: 1.42vw;
   font-weight: 700;
   color: #99A2AA;
   text-align: center;
   justify-content: center;
   align-items: center;
+  transition: 1.5s;
+}
+
+.containerButton:hover {
+  color: black;
+  transition: 2.5s;
 }
 
 .tabPanelContainer {
   flex-direction: column;
   position: relative;
-  top: 5.5vh;
+  top: 3.91vw;
 }
 
 .navContainerBlock {
@@ -106,7 +122,7 @@ header {
   height: 5vw;
   display: flex;
   justify-content: space-between;
-  margin-top: 2.93vh;
+  margin-top: 2.08vw;
 }
 
 .navContainerBlock img {
@@ -122,23 +138,19 @@ input::-webkit-inner-spin-button {
 
 .slider-item-content {
   width: 39.58vw;
-  height: 22.46vh;
+  height: 15.97vw;
   flex-direction: column;
 }
 
-.slider-text-1 {
-  font-size: 4vh;
-
-  font-weight: 700;
-  margin: 5.27vh 0 3.32vh 0;
-  text-decoration: none;
-}
-
-.slider-text-1 a {
+.slider-item-content h2 {
   color: white;
+  font-size: 3.06vw;
+  font-weight: 700;
+  line-height: 4.17vw;
+  margin: 3.75vw 0 2.36vw 0;
 }
 
-.slider-text-2 {
+.slider-item-content p {
   font-size: 1.39vw;
   margin: 0;
   color: #0E2F4B;
@@ -160,7 +172,7 @@ input::-webkit-inner-spin-button {
 
 .services-block-1-left {
   width: 27.78vw;
-  height: 61.52vh;
+  height: 43.75vw;
   justify-content: normal;
   align-items: center;
   flex-direction: column;
@@ -187,9 +199,15 @@ input::-webkit-inner-spin-button {
   height: 12.5vw;
   justify-content: center;
   align-items: normal;
-  margin: 0 1.04vw 2.93vh;
+  margin: 0 1.04vw 2.08vw;
   flex-direction: column;
   padding-left: 2.08vw;
+  transition: 1.5s;
+}
+
+.services-block-1-right:hover {
+  background-color: #FEC524;
+  transition: 2s;
 }
 
 .services-block-1-right h4 {
@@ -201,7 +219,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.services-block-1-right a {
+.services-block-1-right p {
   color: #0E2F4B;
   font-size: 0.97vw;
   font-style: normal;
@@ -234,7 +252,7 @@ input::-webkit-inner-spin-button {
   font-weight: 700;
   line-height: 4.17vw;
   margin: 0;
-  padding-bottom: 3.52vh;
+  padding-bottom: 2.5vw;
 }
 
 .export-code-block p {
@@ -254,7 +272,7 @@ input::-webkit-inner-spin-button {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 0.69vw;
   background: #FDC13D;
   color: #0E2F4B;
   font-size: 1.39vw;
@@ -275,10 +293,10 @@ input::-webkit-inner-spin-button {
   flex-wrap: wrap;
 }
 
-.services-block-2 > .container > .Tabpanel {
+.services-block-2 > .container > a > .Tabpanel {
   width: 81.25vw;
   height: 15.8vw;
-  border-radius: 10px;
+  border-radius: 0.69vw;
   background: #FDC13D;
   justify-content: center;
   flex-direction: column;
@@ -291,7 +309,7 @@ input::-webkit-inner-spin-button {
   font-style: normal;
   font-weight: 700;
   line-height: 2.22vw;
-  margin: 0 8.19vw 1vw 5.21vw;
+  margin: 3.61vw 8.19vw 1vw 5.21vw;
 }
 
 .services-block-2 p {
@@ -304,7 +322,7 @@ input::-webkit-inner-spin-button {
   margin-left: 5.21vw;
 }
 
-.Tabpanel a {
+.services-block-2 h6 {
   color: #0E2F4B;
   font-size: 1.11vw;
   font-style: normal;
@@ -332,8 +350,15 @@ input::-webkit-inner-spin-button {
   margin: 0 1.04vw 0 1.04vw;
 }
 
+
 .finServices h4 {
   margin: 2.22vw 9.72vw 0 0;
+  transition: 1.5s;
+}
+
+.finServices h4:hover {
+  color: #FDC13D;
+  transition: 1.5s;
 }
 
 .finServices > p {
@@ -388,7 +413,7 @@ input::-webkit-inner-spin-button {
 .cityInput {
   width: 35.14vw;
   height: 5.42vw;
-  border-radius: 10px;
+  border-radius: 0.69vw;
   border: 0.07vw solid #E8EBEE;
   background: #FFF;
   color: #6C757D;
@@ -402,7 +427,7 @@ input::-webkit-inner-spin-button {
 .findCityButton {
   width: 17.36vw;
   height: 5.56vw;
-  border-radius: 10px;
+  border-radius: 0.69vw;
   border: none;
   background: #FDC13D;
   color: #0E2F4B;
@@ -428,7 +453,8 @@ input::-webkit-inner-spin-button {
   flex-wrap: wrap;
   margin: 6.94vw 8.33vw 5.56vw 8.33vw;
 }
-.middle-block h2{
+
+.middle-block h2 {
   width: 100%;
   color: #0E2F4B;
   font-size: 3.33vw;
@@ -437,7 +463,8 @@ input::-webkit-inner-spin-button {
   line-height: 4.17vw;
   margin: 1.04vw;
 }
-.middle-block h3{
+
+.middle-block h3 {
   width: 100%;
   color: #0E2F4B;
   font-size: 3.33vw;
@@ -446,23 +473,25 @@ input::-webkit-inner-spin-button {
   line-height: 4.17vw;
   margin: 7.71vw 1.04vw 2.08vw 1.04vw;
 }
+
 .newsBlock {
   width: 39.58vw;
   height: 17.36vw;
-  border-radius: 10px;
+  border-radius: 0.69vw;
   background: #FFF;
   display: flex;
-  /*justify-content: start;*/
   flex-direction: column;
   margin: 1.04vw;
   flex-wrap: wrap;
 }
-.newsIcons{
+
+.newsIcons {
   width: 6.94vw;
   height: 6.94vw;
   margin: 2.08vw 0 0 2.08vw;
 
 }
+
 .newsBlock h6 {
   height: 1.32vw;
   color: #99A2AA;
@@ -474,7 +503,8 @@ input::-webkit-inner-spin-button {
   margin: 2.22vw 0 0.63vw 10.42vw;
   position: absolute;
 }
-.newsBlock h4{
+
+.newsBlock h4 {
   width: 27.08vw;
   color: #0E2F4B;
   font-size: 1.25vw;
@@ -484,7 +514,8 @@ input::-webkit-inner-spin-button {
   margin: 4.17vw 1.04vw 1.67vw 10.42vw;
   position: absolute;
 }
-.newsBlock p{
+
+.newsBlock p {
   color: #0E2F4B;
   font-family: Open Sans, sans-serif;
   font-size: 1.11vw;
@@ -494,10 +525,11 @@ input::-webkit-inner-spin-button {
   margin-left: 2.08vw;
   padding-top: 1.67vw;
 }
-.refBlock{
+
+.refBlock {
   width: 25.69vw;
   height: 6.39vw;
-  border-radius: 10px;
+  border-radius: 0.69vw;
   background: #FFF;
   margin: 1.04vw;
   display: flex;
@@ -508,16 +540,111 @@ input::-webkit-inner-spin-button {
   font-style: normal;
   font-weight: 700;
   line-height: 2.22vw;
+  transition: 1.5s;
 }
+
+.refBlock:hover {
+  color: black;
+  transition: 1.5s;
+}
+
 .branches-block {
   width: 100vw;
-  height: 48.83vh;
+  height: 34.72vw;
   background-color: #FEC524;
+}
+
+.branches-block > div {
+  width: 80.42vw;
+  height: 25.14vw;
+  margin: 6.25vw 9.38vw 3.47vw;
+  flex-direction: column;
+}
+
+.branches-block > div h2 {
+  color: #FFF;
+  font-size: 3.33vw;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 2.08vw;
+}
+
+.branches-block > div p {
+  color: #0E2F4B;
+  font-family: Open Sans, sans-serif;
+  font-size: 1.11vw;
+  font-style: normal;
+  font-weight: 400;
+  margin: 2.5vw 0 1.88vw 0;
+}
+
+.branches-block > div h4 {
+  color: #0E2F4B;
+  font-size: 1.18vw;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+
+.storeIcon {
+  width: 11.81vw;
+  height: 3.47vw;
+  margin: 1.04vw 1.67vw 2.6vw 0;
+  border-radius: 5px;
+}
+
+.socialMediaIcon {
+  width: 2.64vw;
+  height: 2.64vw;
+  margin: 1.04vw 1.39vw 0 0;
 }
 
 footer {
   width: 100vw;
-  height: 77.05vh;
+  height: 54.79vw;
   background-color: #1D2023;
 }
 
+.footerMenu {
+  width: 81.25vw;
+  height: 47.29vw;
+  margin: 0 8.33vw 7.5vw;
+  border-bottom: 1px solid #99A2AA;
+}
+
+.footerMenu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0.63vw 0 0 0;
+}
+
+.footerMenu h6 {
+  color: #FFF;
+  font-size: 1.11vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.39vw;
+  margin: 6.94vw 0 0.63vw 1.04vw;
+}
+
+.footerMenu a {
+  color: #99A2AA;
+  font-size: 1.11vw;
+  font-style: normal;
+  font-weight: 400;
+  transition: 1.5s;
+}
+
+.footerMenu a:hover{
+  color: white;
+  transition: 1s;
+}
+
+.footerMenu li {
+  margin: .9vw 0 0 1.04vw;
+}
+
+.footerMenu > section {
+  width: 20.83vw;
+  height: 43.75vw;
+}
