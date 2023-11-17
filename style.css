@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
 }
 
 div {
@@ -624,7 +625,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   line-height: 1.39vw;
-  margin: 6.94vw 0 0.63vw 1.04vw;
+  margin: 6.94vw 0 1.67vw 1.04vw;
 }
 
 .footerMenu a {
@@ -641,7 +642,7 @@ footer {
 }
 
 .footerMenu li {
-  margin: .9vw 0 0 1.04vw;
+  margin: 1.04vw 0 0 1.04vw;
 }
 
 .footerMenu > section {
